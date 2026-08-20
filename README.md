@@ -9,3 +9,13 @@
 docker compose exec server bash -c 'npx sequelize db:migrate'
 ```
 
+### Comando para executar a Bia via docker 
+_Deve estar na raiz do projeto_
+
+```bash
+#Subir o projeto
+docker compose up -d
+
+#remover os containers 
+docker compose down
+```
